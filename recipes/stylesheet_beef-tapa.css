@@ -1,0 +1,38 @@
+h1 {
+    background-color: lightsalmon;
+    color: white;
+    width: 330px;
+    padding: 10px;
+    text-align: center;
+}
+
+body {
+    max-width: 500px;
+    margin: 50px;
+    box-sizing: border-box;
+}
+
+.intro {
+    background-color: #f9caca80;
+    padding: 10px;
+
+}
+
+.ing,
+ .steps {
+    background-color: lightsalmon;
+    padding: 10px;
+    font-weight: 700;
+    color: white;
+}
+
+ul, ol {
+   background-color: #f9caca80;
+   list-style-position: inside;
+   padding: 10px;
+}
+
+button {
+    background-color: lightsalmon;
+    padding: 10px;
+}
