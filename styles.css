@@ -1,0 +1,11 @@
+ h1 {
+   background-color: lightsalmon;
+   padding: 20px;
+ }
+ 
+ figure img {
+    display: inline-block;
+    margin: 10px;
+    width: 300px;
+    height: auto;
+ }
