@@ -1,23 +1,49 @@
-h1 {
-   background-color: lightsalmon;
-   padding: 20px;
- }
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
 
-figure {
-    display: inline-block;
-    margin: 20px;
- }
-
-img {
-   width: 300px;
-   height: auto;
-   display: block;
 }
 
-figure figcaption {
-   text-align: center;
-   margin-top: 5px;
-   margin-bottom: 10px;
-   font-size: 14px;
+.header-container {
+   background-color: #d49654;
+   width: auto;
+   height: 100px;
+   display: flex;
+   
+}
 
- }
+.odin-recipes {
+   color: aliceblue;
+   font-size: 50px;
+   display: flex;
+   margin: auto;
+   align-items: flex-start;
+   
+}
+
+.photo-grid-container {
+   display: flex;
+   justify-content: center;
+   margin: 20px 0;
+   
+   
+}
+
+.photo-grid-item {
+   display: flex;
+   justify-content: center;
+   
+   gap: 10px;
+}
+
+.tapa,
+.sinigang,
+.adobo,
+img {
+   display: flex;
+   align-items: center;
+   width: 350px;
+   height: 350px;
+   
+}
