@@ -10,6 +10,7 @@
    width: auto;
    height: 100px;
    display: flex;
+   padding: 20px;
    
 }
 
@@ -17,24 +18,25 @@
    color: aliceblue;
    font-size: 50px;
    display: flex;
-   margin: auto;
-   align-items: flex-start;
+   align-items: center;
+   font-family: Hevlvetica, sans-serif;
+   font-weight: 700;
    
 }
 
 .photo-grid-container {
    display: flex;
+   margin: 20px;
    justify-content: center;
-   margin: 20px 0;
-   
    
 }
 
 .photo-grid-item {
    display: flex;
    justify-content: center;
-   
+   align-items: center;
    gap: 10px;
+
 }
 
 .tapa,
@@ -44,6 +46,16 @@ img {
    display: flex;
    align-items: center;
    width: 350px;
-   height: 350px;
+   height:350px;
    
+}
+
+.photo-grid-item p {
+   display: flex;
+   justify-content: center;
+   margin: 10px;
+   background-color: #d49654;
+   color: aliceblue;
+   padding: 10px;
+   font-family: Helvetica, sans-serif;
 }
